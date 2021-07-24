@@ -4,57 +4,51 @@
 
 \documentclass{resume}
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-% \usepackage{NotoSansSC_external}
-% \usepackage{NotoSerifCJKsc_external}
-% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage{cite}
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{张钊杰}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{tyxxzjpdez@qq.com} \textperiodcentered\ 
+  \phone{(+86) 175-194-67689} \textperiodcentered\ }
  
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\datedsubsection{\textbf{东南大学}, 南京}{2019 -- 至今}
+\textit{在读硕士研究生}\ 计算机技术, 预计 2022 年 6 月毕业
+\datedsubsection{\textbf{长春理工大学}, 长春, 吉林}{2015 -- 2019}
+\textit{学士}\ 计算机科学与技术
+
+\begin{itemize}
+  \item 曾赴俄罗斯ITMO交流学习，并获得证书
+  \item 长春理工大学三好学生
+  \item 长春理工大学王大珩专项奖学金
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{银奖}ACM-ICPC大学生程序设计竞赛亚洲区域赛-西安}{2017年10月}
+\datedline{\textit{铜奖}ACM-ICPC大学生程序设计竞赛全国邀请赛-西安}{2017年05月}
+\datedline{\textit{金奖}东北地区大学生程序设计竞赛}{2018年05月}
+\datedline{\textit{银奖}东北地区大学生程序设计竞赛}{2017年05月}
+\datedline{\textit{铜奖}CCPC 大学生程序设计竞赛吉林省赛}{2016年09月}
+\datedline{\textit{金奖}CCPC 大学生程序设计竞赛吉林省赛}{2017年09月}
+\datedline{\textit{金奖}CCPC 大学生程序设计竞赛吉林省赛}{2016年09月}
+
 
 \section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\datedsubsection{\textbf{联想AR云渲染项目}}{2020年1月 -- 2020年11月}
+\role{OpenGL, C++}{实验室项目，与联想合作}
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+主要为了解决AR云渲染传输时延过高的问题
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
-
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
-\begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 首先使用OpenGL实现了3DImageWarp的功能
+  \item 实现从PC端到安卓端的移植
+  \item 将OpenGL转换为OpenGLES的语义
 \end{itemize}
 \end{onehalfspacing}
 
@@ -68,21 +62,17 @@ xxx后端开发
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
+  \item 编程语言: C/C++ > Python > Java
   \item 平台: Linux
-  \item 开发: xxx
+  \item 机器学习: Graph Representation Learning、Deep Learning
+  \item 基础知识:掌握数据结构/算法、操作系统、数据库原理等
 \end{itemize}
-
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
 
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+  \item 技术博客: https://tyxxzjpdez.github.io/myblog
+  \item GitHub: https://github.com/tyxxzjpdez
 \end{itemize}
 
 %% Reference
